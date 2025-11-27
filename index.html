@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel automatisch laden</title>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="input">
+        <input type="text" id="customInput" placeholder="Gib deinen eigenen Satz ein...(ersetze das Tool mit XXX)">
+        <button id="customBtn"><span style='font-size:20px;'>&#8594;</span></button>
+    </div>
+
+<p id="error" style="color: #ff8800;"></p>
+
+
+<div id="controls">
+<button id="newBtn">New Task</button>
+<button id="newWordBtn">New Tool</button>
+</div>
+<div id="output">Lade Daten …</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
