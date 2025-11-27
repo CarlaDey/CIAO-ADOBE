@@ -20,7 +20,7 @@ h2, h3 {
 }
 
 #controls {
-    margin-top: 10%;
+    margin-top: 7%;
     margin-left: 40%;
     margin-bottom: 20px;
 }
@@ -84,4 +84,5 @@ input[type="text"] {
     height:50px;
     text-align: center;
 }
+
 
